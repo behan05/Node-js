@@ -1,0 +1,11 @@
+{
+  "name": "0.3-global-objects",
+  "version": "1.0.0",
+  "description": "not decleared",
+  "main": "script.js",
+  "scripts": {
+    "test": "run"
+  },
+  "author": "behan",
+  "license": "ISC"
+}
