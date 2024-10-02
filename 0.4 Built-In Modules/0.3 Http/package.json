@@ -8,5 +8,9 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "fetch-node": "^0.0.1",
+    "three.js": "^0.77.1"
+  }
 }
