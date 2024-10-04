@@ -1,0 +1,6 @@
+3:58:21 PM 10/4/2024 - Received GET request from / 
+3:58:21 PM 10/4/2024 - Received GET request from /favicon.ico 
+3:58:21 PM 10/4/2024 - Received GET request from / 
+3:58:21 PM 10/4/2024 - Received GET request from /favicon.ico 
+5:21:18 PM 10/4/2024 - Received GET request from / 
+5:21:18 PM 10/4/2024 - Received GET request from /favicon.ico 
