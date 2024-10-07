@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Add Note</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <h1>My Notes</h1>
+    <ul id="notesList"></ul>
+
+    <script>
+      // fetch data to display.
+      window.addEventListener("DOMContentLoaded", () => {
+        async function getData(dataUrl) {
+          try {
+            const fetchedData = await fetch(dataUrl);
+            const data = await fetchedData.text();
+
+            if (data) {
+              const notes = data.split("\n");
+              const notesList = document.querySelector("#notesList");
+
+              notes.forEach((note) => {
+                const noteTrim = note.trim();
+                if (noteTrim) {
+                  const createLi = document.createElement("li");
+                  const createTextNodes = document.createTextNode(note);
+                  createLi.appendChild(createTextNodes);
+
+                  notesList.appendChild(createLi);
+                } else {
+                  console.log("There is no Note List.");
+                }
+              });
+            }
+          } catch (error) {
+            console.log("Data is not fetched", error.message);
+          }
+        }
+        getData("./list.txt");
+      });
+    </script>
+  </body>
+</html>

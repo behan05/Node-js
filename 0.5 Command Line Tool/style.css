@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgba(138, 138, 138, 0.5);
+}
+
+h1,
+ul {
+  padding: 2rem;
+  background-color: rgba(32, 178, 170, 0.1);
+}
+li {
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 12px;
+  filter: drop-shadow(0 0 2rem lightseagreen);
+  font-size: 1rem;
+  letter-spacing: 0.1rem;
+  list-style-type: none;
+}
+
+
