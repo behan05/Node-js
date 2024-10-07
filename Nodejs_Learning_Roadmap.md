@@ -53,7 +53,6 @@
 - **What You'll Learn**:
   - File system operations.
   - Basic routing with HTTP requests.
-
 ---
 
 ## Part 2: Intermediate Concepts (Once you’re comfortable with the basics)
