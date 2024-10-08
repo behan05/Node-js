@@ -77,7 +77,9 @@
 - Key Topics:
   - Setting up routes.
   - Handling middleware (for processing requests before they reach routes).
-  - Rendering responses.
+  - Rendering responses. 
+  - Templating Engines (like EJS, Pug) for rendering HTML.
+  - Express Router for modularizing routes.
 
 ### 4. **Streams and Buffers**
 
