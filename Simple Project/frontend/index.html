@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>My App</title>
+</head>
+<body>
+    <h1>My Data App</h1>
+
+    <div id="data-container"></div>
+
+    <form id="data-form">
+        <input type="text" id="new-data" placeholder="Enter new data" required>
+        <button type="submit">Submit</button>
+    </form>
+
+    <button id="fetch-data">Fetch Data</button>
+
+    <div id="update-container">
+        <input type="text" id="update-id" placeholder="ID to update" required>
+        <input type="text" id="update-data" placeholder="New data" required>
+        <button id="update-data-btn">Update Data</button>
+    </div>
+
+    <div id="delete-container">
+        <input type="text" id="delete-id" placeholder="ID to delete" required>
+        <button id="delete-data-btn">Delete Data</button>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
