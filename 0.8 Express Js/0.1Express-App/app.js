@@ -23,7 +23,7 @@ const customAPI = [
 function createLog(req) {
     const pathOfFile = path.join(__dirname, "log.txt");
     const dateTime = new Date()
-    const logMessage = `Getting request from ${req.method}, ${dateTime.toLocaleDateString()} ${dateTime.toLocaleTimeString()}\n`;
+    const logMessage = `Getting request from ${req.method} ${req.ip}, ${dateTime.toLocaleDateString()} ${dateTime.toLocaleTimeString()}\n`;
 
     fs.appendFile(pathOfFile, logMessage, (error) => {
         if (error) {
