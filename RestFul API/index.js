@@ -123,7 +123,7 @@ app.post("/api/users", (req, res) => {
             return res.status(500).json({ message: "Error saving user to file", error: err });
         }
         else {
-            return res.status(200).json({ message: "New User Created!", user: newUser })
+            return res.status(200).json({ message: "New User Created!", user: newUser.first_name, id:newUser.id })
         }
     });
 })
