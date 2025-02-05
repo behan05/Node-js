@@ -1,0 +1,14 @@
+{
+  "name": "0.1-node-first-script",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "run": "node script.js"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
