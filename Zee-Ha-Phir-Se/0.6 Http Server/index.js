@@ -136,16 +136,16 @@ const server = http.createServer((req, res) => {
     }
 })
 
-// server.listen(3000, () => {
-//     console.log("server started at PORT :: 3000");
-// });
+server.listen(3000, () => {
+    console.log("server started at PORT :: 3000");
+});
 
 
-const newServer = http.createServer((req, res) => {
-    console.log(req.socket.remoteAddress);
-    console.log(req.socket.remotePort);
-    res.end("Helloooooooooo")
-})
+// const newServer = http.createServer((req, res) => {
+//     console.log(req.socket.remoteAddress);
+//     console.log(req.socket.remotePort);
+//     res.end("Helloooooooooo")
+// })
 
 // newServer.listen(3000)
 
