@@ -1,0 +1,9 @@
+
+GET /api/users - Get all users
+GET /api/users/1 - Get the user with ID 1
+
+POST /api/users - Create a new user
+
+PATCH /api/users/1 - Edit the user with ID 1
+
+DELETE /api/users/1 - delete user with ID 1
